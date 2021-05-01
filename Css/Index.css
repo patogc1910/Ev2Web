@@ -1,5 +1,5 @@
-main img{
-    width: 1700px;
+#imagensita{
+    width: 100%;
 }
 
 h1 {
@@ -43,13 +43,14 @@ header nav a:hover, header nav a:active{
 } 
 
 main{
-    background-color: teal;
+    background-color: darkblue;
 }
 
 h2{
     color:white;
     text-align: center;
     font-size: 1.9em;
+    margin-top: 0.5%;
 }
 
 #video{
@@ -58,6 +59,10 @@ h2{
 }
 
 footer{
-    background: turquoise;
+    padding: 0%;
+    text-align:center;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 1.9em;
 }
-
