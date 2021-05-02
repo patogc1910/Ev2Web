@@ -44,11 +44,13 @@ h2, h3 ,h4, h5{
 #figura1{
     font-size: 160px;
     margin: 44%;
+    padding: 0%;
 }
 
 #figura2{
     font-size: 160px;
     margin: 46%;
+    padding: 0%;
 }
 
 img{
