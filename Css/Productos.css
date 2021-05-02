@@ -71,10 +71,16 @@ img:hover{
     outline: 20px solid blue;
 }
 
-h2, h3, h4, h5{
+h3, h4, h5{
     text-align:start;
     color:purple;
     font-size: 2.2em;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.7em;
+    color: teal;
 }
 
 label{
