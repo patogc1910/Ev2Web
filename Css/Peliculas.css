@@ -61,6 +61,7 @@ table{
 
 th, td{
     text-align:center;
+    margin: 0%;
     padding-top: 4%;
     padding-bottom: 3%;
     padding-left: 0%;
@@ -73,7 +74,7 @@ th, td{
 th{
     color: red;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 td{
@@ -114,7 +115,7 @@ mark{
 p {
     color: black;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align:justify;
 }
 
@@ -136,10 +137,11 @@ p {
 
 #pelicula3{
     width: 40%;
+    margin: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 30%;
+    padding-right: auto;
 }
 
 .palabraimportante{
