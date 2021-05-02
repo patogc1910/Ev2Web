@@ -6,20 +6,27 @@
     <meta name="description" content="Pagina para Comprar Productos o pedir tu snack favorito">
     <meta name="autor" content="Jose Patricio Gomez Calderon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Productos.css">
     <title>Productos</title>
 </head>
 <body>
     <Header>
-        <h1 style="color: darkgreen; background-color: darkgrey; text-align: center;">Productos</h1>
+        <h1>Productos</h1>
+        <nav>
+            <ul id="MenuProducto">
+                <a href="patogc1910_index.html">Ir al Inicio</a>
+                <a href="patogc1910_subtema1.html">Ir a Peliculas</a>
+                <a href="patogc1910_subtema3.html">Ir a noticias</a>
+                <a href="patogc1910_contactos.html">Ir a contactos</a>
+            </ul>
+        </nav>
     </Header>
     <main>
         <article>
-            <a href="patogc1910_index.html">Ir al Inicio</a>
-            <a href="patogc1910_subtema1.html">Ir a Peliculas</a>
-            <a href="patogc1910_subtema3.html">Ir a noticias</a>
-            <a href="patogc1910_contactos.html">Ir a contactos</a>
-            <h1>Menu snacks</h1>
-            <table border="4">
+            <br>
+            <br>
+            <h2>Menu snacks</h2>
+            <table border="10">
                 <tr>
                     <th>COMBOS</th>
                     <th>DESCRIPCION</th>
@@ -28,33 +35,33 @@
                 <tr>
                     <td>COMBO8</td>
                     <td>2 refrescos jumbo, 1 palomitas grandes y nachos tradicionales(doritos)</td>
-                    <td>$360</td>
+                    <td id="x2">$360</td>
                 </tr>
                 <tr>
                     <td>COMBO9</td>
                     <td>1 refresco jumbo, palomitas grandes, hot dog tradicional y chocolate crunch</td>
-                    <td>$290</td>
+                    <td id="x3">$290</td>
                 </tr>
                 <tr>
                     <td>COMBO10</td>
                     <td>1 refresco jumbo, palomitas grandes, nachos tradicionales(doritos) y chocolate M&M'S'</td>
-                    <td>$310</td>
+                    <td id="x4">$310</td>
                 </tr>
                 <tr>
                     <td>COMBO11</td>
                     <td>1 refresco jumbo, palomitas grandes, nachos tradicionales(doritos) y chocolate hersheys</td>
-                    <td>$410</td>
+                    <td id="x5">$410</td>
                 </tr>
                 <tr>
                     <td>COMBO12</td>
                     <td>1 refresco jumbo, palomitas grandes, hot dog tradicional y chocolate snickers</td>
-                    <td>$465</td>
+                    <td id="x6">$465</td>
                 </tr>
             </table>
             <img src="recursos/MenuProducto.jpg" alt="">
             <hr>
-            <div>
-                <h2>¿De que tamaño quieres el refresco?</h2>
+            <div id="pregunta1">
+                <h3>¿De que tamaño quieres el refresco?</h3>
                 <label for="refresco">Refresco Chico</label>
                 <input type="radio" name="bebida" id="refrescoc">
                 <label for="refrescom">Refresco Mediano</label>
@@ -62,8 +69,8 @@
                 <label for="refrescog">Refresco Grande</label>
                 <input type="radio" name="bebida" id="refrescog">
             </div>
-            <div>
-                <h3>¿De que sabor la quiere?</h3>
+            <div id="pregunta2">
+                <h4>¿De que sabor la quiere?</h4>
                 <label for="coca">Coca-cola</label>
                 <input type="radio" name="sabor" id="coca">
                 <label for="sprite">Sprite</label>
@@ -74,7 +81,7 @@
                 <input type="radio" name="sabor" id="fanta">
             </div>
             <div>
-                <h3>¿De que tamaño de palomitas?</h3>
+                <h5>¿De que tamaño de palomitas?</h5>
                 <label for="palomitasc">Palomitas Chicas</label>
                 <input type="radio" name="snack" id="palomitasc">
                 <label for="palomitasm">Palomitas Medianas</label>
@@ -87,8 +94,8 @@
                 <label for="combocine">¿Que combos escoges?:</label>
                 <input type="text" name="combocine" id="combocine">
             </div>
-            <h4>Descripcion alimentos</h4>
-            <aside>
+            <h6>Descripcion alimentos</h6>
+            <footer>
                 <dl>
                     <dt>Palomitas</dt>
                     <dd>Grano de maíz tostado o reventado, que se sala o se endulza para comerlo como aperitivo o como golosina: comer palomitas en el cine.</dd>
@@ -105,7 +112,7 @@
                     <dt>Hot dog</dt>
                     <dd>El perrito caliente (del inglés hot dog, ‘perro caliente’) es un alimento en forma de bocadillo que se genera con la combinación de una salchicha del tipo salchicha de Frankfurt (frankfurter) o vienesa (wiener) hervida o frita servida, en un pan con forma alargada que suele acompañarse con algún aderezo, como salsa de tomate, mostaza y cebolla.</dd>
                 </dl>
-            </aside>
+            </footer>
         </article>
     </main>
 </body>
