@@ -25,7 +25,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-grow: wrop;
+    flex-grow: wrap;
     height: 50px;
 }
 
